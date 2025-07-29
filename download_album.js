@@ -82,7 +82,7 @@ function getLinksAndTags(html, domain) {
     tracksData.push({
       url: `https://${domain}${$(element)
         .find('.playlist__control.play')
-        .attr('data-play-url')}`,
+        .attr('data-url')}`,
       trackNo,
       title: $(element)
         .find('.playlist__details a.strong')
